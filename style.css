@@ -36,15 +36,15 @@
   display: flex;
 }
 .list-tasks {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 /* li, h3  */
 .list-item, .title-text {
-  list-style:none;
+  list-style: none;
 }
 input,button {
-  outline:none;
+  outline: none;
 }
 .button-task {
   background: none;
@@ -138,14 +138,14 @@ h3,
 
 /* Edit Task */
 .list-tasks .list-item input[type="text"] {
-  display:none
+  display: none
 }
 
 .list-tasks .list-item.edit-mode input[type="text"] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .list-tasks .list-item.edit-mode label {
-  display:none;
+  display: none;
 }
