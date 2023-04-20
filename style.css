@@ -10,7 +10,7 @@
   display: block;
   text-align: right;
 }
-.info-image{
+.info-image {
   width: 100%;
 }
 .information-block .more-inf {
@@ -18,8 +18,9 @@
 }
 
 @media (max-width:768px) {
-.information-block { text-align: center;
-}
+  .information-block { 
+    text-align: center;
+  }
 }
 .centered-element {
   display: block;
@@ -39,10 +40,10 @@
   padding: 0px;
 }
 /* li, h3  */
-.list-item, .title-text{
+.list-item, .title-text {
   list-style:none;
 }
-input,button{
+input,button {
   outline:none;
 }
 .button-task {
