@@ -40,10 +40,12 @@
   padding: 0px;
 }
 /* li, h3  */
-.list-item, .title-text {
+.list-item,
+.title-text {
   list-style: none;
 }
-input,button {
+input,
+button {
   outline: none;
 }
 .button-task {
