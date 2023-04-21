@@ -13,7 +13,6 @@ var addButton=document.getElementsByTagName("button")[0];//first button
 var incompleteTaskHolder=document.getElementById("tasks__list-incomplete");//ul of #incompleteTasks
 var completedTasksHolder=document.getElementById("tasks__list-completed");//completed-tasks
 
-
 //New task list item
 var createNewTaskElement=function(taskString){
 
@@ -50,7 +49,6 @@ var createNewTaskElement=function(taskString){
   deleteButtonImg.className="button-delete__image";
   deleteButton.appendChild(deleteButtonImg);
 
-
   //and appending.
   listItem.appendChild(checkBox);
   listItem.appendChild(label);
@@ -67,7 +65,6 @@ var addTask=function(){
   //Create a new list item with the text from the #new-task:
   if (!taskInput.value) return;
   var listItem=createNewTaskElement(taskInput.value);
-
   var label=listItem.querySelector("label");
   label.className="list-item__title list-item__task";
 
